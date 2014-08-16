@@ -26,6 +26,7 @@
 		E84C746E199D73DC0070DC4E /* FBCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C746D199D73DC0070DC4E /* FBCDMasterViewController.m */; };
 		E84C7474199D7F800070DC4E /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C7473199D7F800070DC4E /* FailedBankDetails.m */; };
 		E84C7477199D831F0070DC4E /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C7476199D831F0070DC4E /* FailedBankInfo.m */; };
+		E84C74A4199EDD570070DC4E /* CoreDataTutorial2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E84C74A3199EDD570070DC4E /* CoreDataTutorial2.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		E84C7473199D7F800070DC4E /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
 		E84C7475199D831F0070DC4E /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
 		E84C7476199D831F0070DC4E /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
+		E84C74A3199EDD570070DC4E /* CoreDataTutorial2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoreDataTutorial2.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		E84C7430199D6C810070DC4E /* FailedBankCD */ = {
 			isa = PBXGroup;
 			children = (
+				E84C74A3199EDD570070DC4E /* CoreDataTutorial2.sqlite */,
 				E84C7439199D6C810070DC4E /* FBCDAppDelegate.h */,
 				E84C743A199D6C810070DC4E /* FBCDAppDelegate.m */,
 				E84C743C199D6C810070DC4E /* Main.storyboard */,
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E84C7449199D6C810070DC4E /* Images.xcassets in Resources */,
+				E84C74A4199EDD570070DC4E /* CoreDataTutorial2.sqlite in Resources */,
 				E84C7435199D6C810070DC4E /* InfoPlist.strings in Resources */,
 				E84C743E199D6C810070DC4E /* Main.storyboard in Resources */,
 			);
